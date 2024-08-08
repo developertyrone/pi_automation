@@ -1,1 +1,1 @@
-sudo curl -sSL <raw-github-url> | sudo bash -s -- --static_ip "192.168.1.100" --router_ip "192.168.1.1" --dns_server "8.8.8.8" --disable_wifi "true"
+sudo curl -sSL [<raw-github-url>](https://raw.githubusercontent.com/developertyrone/pi_automation/main/static_and_nowifi/pi4b/setup.sh) | sudo bash -s -- --static_ip "192.168.1.100" --router_ip "192.168.1.1" --dns_server "8.8.8.8" --disable_wifi "true"
