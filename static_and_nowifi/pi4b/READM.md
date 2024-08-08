@@ -1,0 +1,1 @@
+sudo curl -sSL <raw-github-url> | sudo bash -s -- --static_ip "192.168.1.100" --router_ip "192.168.1.1" --dns_server "8.8.8.8" --disable_wifi "true"
